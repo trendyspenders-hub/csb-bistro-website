@@ -36,14 +36,14 @@
 <link href="https://fonts.gstatic.com" rel="dns-prefetch"/>
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="../css/styles.css" rel="stylesheet"/>
+<link href="../css/styles.min.css" rel="stylesheet"/>
 <!-- Structured Data -->
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "CSB Bistro & Sport Bar",
-    "image": "https://csbsportsbar.ca/assets/logo-800.png",
+    "image": "https://csbsportsbar.ca/assets/logo-800.webp",
     "url": "https://csbsportsbar.ca/",
     "telephone": "+16048283165",
     "address": {
@@ -75,7 +75,7 @@
     "@type": "Organization",
     "name": "CSB Bistro & Sport Bar",
     "url": "https://csbsportsbar.ca/",
-    "logo": "https://csbsportsbar.ca/assets/logo-800.png",
+    "logo": "https://csbsportsbar.ca/assets/logo-800.webp",
     "image": "https://csbsportsbar.ca/assets/og-image.png",
     "telephone": "+16048283165",
     "email": "csbsportsbar.ca@gmail.com",
@@ -121,7 +121,7 @@
 <nav aria-label="Main navigation" class="nav-island">
 <div class="nav-inner">
 <a aria-label="CSB Bistro Sport Bar Home" class="nav-logo" href="../index.html">
-<img alt="CSB Bistro &amp; Sport Bar" fetchpriority="high" height="240" src="../assets/logo-400.png" width="400"/>
+<img alt="CSB Bistro &amp; Sport Bar" fetchpriority="high" height="240" src="../assets/logo-400.webp" width="400"/ decoding="async">
 </a>
 <div class="nav-links">
 <a class="nav-link" href="../index.html"><span>Home</span></a>
@@ -151,7 +151,7 @@
 <div aria-hidden="true" class="mobile-menu">
   <div class="mobile-menu-header">
     <a class="mobile-menu-logo" href="../index.html" aria-label="CSB Home">
-      <img src="../assets/logo-400.png" alt="CSB Bistro &amp; Sport Bar" width="400" height="240">
+      <img src="../assets/logo-400.webp" alt="CSB Bistro &amp; Sport Bar" width="400" height="240" loading="lazy" decoding="async">
     </a>
     <button class="mobile-menu-close" aria-label="Close menu">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -197,7 +197,91 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Live sports and soccer on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/>
+<img alt="NFL football on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
+</div>
+<div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+<p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">NFL</p>
+<h2 style="font-family: var(--font-display); font-size: 1.75rem; margin-bottom: 0.75rem; color: var(--text-primary);">Where to Watch NFL Games in Vancouver</h2>
+<p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem; flex: 1;">Sunday football, Monday Night Football, playoffs, and the Super Bowl. Here is where to find the best NFL atmosphere in the city.</p>
+<a class="btn btn-secondary" href="where-to-watch-nfl-games-vancouver.html" style="align-self: flex-start;">
+<span>Read Article</span>
+<span class="btn-icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="14">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</span>
+</a>
+</div>
+</div>
+</article>
+<article class="card-shell reveal">
+<div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
+<div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
+<img alt="Super Bowl watch party at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
+</div>
+<div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+<p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Super Bowl</p>
+<h2 style="font-family: var(--font-display); font-size: 1.75rem; margin-bottom: 0.75rem; color: var(--text-primary);">Where to Watch the Super Bowl in Vancouver</h2>
+<p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem; flex: 1;">The biggest game of the year deserves a big crowd, big screens, and a bar that treats football like the main event.</p>
+<a class="btn btn-secondary" href="where-to-watch-super-bowl-vancouver.html" style="align-self: flex-start;">
+<span>Read Article</span>
+<span class="btn-icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="14">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</span>
+</a>
+</div>
+</div>
+</article>
+<article class="card-shell reveal">
+<div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
+<div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
+<img alt="UFC fight night at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
+</div>
+<div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+<p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">UFC</p>
+<h2 style="font-family: var(--font-display); font-size: 1.75rem; margin-bottom: 0.75rem; color: var(--text-primary);">Where to Watch UFC Fights in Vancouver</h2>
+<p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem; flex: 1;">Live pay-per-view cards, big fights, and a crowd that gets into every round. Here is where to watch UFC in downtown Vancouver.</p>
+<a class="btn btn-secondary" href="where-to-watch-ufc-vancouver.html" style="align-self: flex-start;">
+<span>Read Article</span>
+<span class="btn-icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="14">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</span>
+</a>
+</div>
+</div>
+</article>
+<article class="card-shell reveal">
+<div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
+<div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
+<img alt="CSB Bistro and Sport Bar interior on Granville Street" height="809" loading="lazy" src="../images/csb-burger-fries.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1942"/ decoding="async">
+</div>
+<div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+<p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Local Guide</p>
+<h2 style="font-family: var(--font-display); font-size: 1.75rem; margin-bottom: 0.75rem; color: var(--text-primary);">Best Sports Bar on Granville Street</h2>
+<p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem; flex: 1;">Big screens, full sound, cold drinks, and a downtown location make CSB a solid choice for watching sports in Vancouver.</p>
+<a class="btn btn-secondary" href="best-sports-bar-granville-street.html" style="align-self: flex-start;">
+<span>Read Article</span>
+<span class="btn-icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="14">
+<path d="M5 12h14"></path>
+<path d="M12 5l7 7-7 7"></path>
+</svg>
+</span>
+</a>
+</div>
+</div>
+</article>
+<article class="card-shell reveal">
+<div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
+<div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
+<img alt="Live sports and soccer on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Soccer</p>
@@ -218,7 +302,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="CSB Happy Hour whiskey cocktail special" height="1024" loading="lazy" src="../images/csb-happy-hour-whiskey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1536"/>
+<img alt="CSB Happy Hour whiskey cocktail special" height="1024" loading="lazy" src="../images/csb-happy-hour-whiskey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1536"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Happy Hour</p>
@@ -239,7 +323,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Live sports and hockey on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/>
+<img alt="Live sports and hockey on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Sports</p>
@@ -260,7 +344,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Live sports and hockey on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/>
+<img alt="Live sports and hockey on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Sports Calendar</p>
@@ -281,7 +365,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Bacon cheddar burger and fries at CSB" height="809" loading="lazy" src="../images/csb-burger-fries.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1942"/>
+<img alt="Bacon cheddar burger and fries at CSB" height="809" loading="lazy" src="../images/csb-burger-fries.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1942"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Night Out</p>
@@ -302,7 +386,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Great food and drinks for private events at CSB" height="809" loading="lazy" src="../images/csb-food-drinks-spread.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1942"/>
+<img alt="Great food and drinks for private events at CSB" height="809" loading="lazy" src="../images/csb-food-drinks-spread.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1942"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Private Events</p>
@@ -323,7 +407,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Drinks and good times for a group night out at CSB" height="1024" loading="lazy" src="../images/csb-weekend-vibes.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1536"/>
+<img alt="Drinks and good times for a group night out at CSB" height="1024" loading="lazy" src="../images/csb-weekend-vibes.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1536"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Group Dining</p>
@@ -344,7 +428,7 @@
 <article class="card-shell reveal">
 <div class="card-core" style="padding: 0; height: 100%; display: flex; flex-direction: column;">
 <div style="aspect-ratio: 16/10; overflow: hidden; border-radius: calc(var(--radius-xl) - 0.5rem) calc(var(--radius-xl) - 0.5rem) 0 0;">
-<img alt="Live sports and hockey on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/>
+<img alt="Live sports and hockey on the big screens at CSB" height="1149" loading="lazy" src="../images/csb-live-sports-hockey.webp" style="width: 100%; height: 100%; object-fit: cover;" width="1369"/ decoding="async">
 </div>
 <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
 <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem;">Sports Calendar</p>
@@ -372,7 +456,7 @@
 <div class="footer-grid">
 <div>
 <div class="footer-brand">
-<img alt="CSB Bistro &amp; Sport Bar" height="240" loading="lazy" src="../assets/logo-400.png" width="400"/>
+<img alt="CSB Bistro &amp; Sport Bar" height="240" loading="lazy" src="../assets/logo-400.webp" width="400"/ decoding="async">
 </div>
 <p class="footer-tagline">Bistro &amp; Sport Bar on Granville Street. Good food, cold drinks, and the game on.</p>
 <div class="footer-social">
@@ -441,7 +525,7 @@
 </div>
 </div>
 </footer>
-<script src="../js/main.js"></script>
+<script src="../js/main.min.js"></script>
 <!-- Mobile Sticky Footer -->
 <nav aria-label="Quick actions" class="mobile-sticky-footer">
 <a class="mobile-sticky-item" href="tel:+16048283165">
