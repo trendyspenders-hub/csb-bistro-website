@@ -192,6 +192,25 @@
 </div>
 </header>
 <!-- Tonight / This Week Highlight -->
+<section class="section tonight-section" id="live-schedule">
+<div class="container">
+<div class="section-header mx-auto text-center reveal">
+<p class="section-label">Live Schedule</p>
+<h2 class="section-title">What to Watch at CSB</h2>
+<p class="section-desc">Automatically updated daily with upcoming games from the NFL, NHL, MLB, NBA, MLS, UFC, and F1.</p>
+</div>
+<div class="sport-tabs" id="sport-tab-buttons">
+<button class="sport-tab active" data-tab="today">Today</button>
+<button class="sport-tab" data-tab="tomorrow">Tomorrow</button>
+<button class="sport-tab" data-tab="week">This Week</button>
+<button class="sport-tab" data-tab="all">All Upcoming</button>
+</div>
+<div class="sport-section" id="sport-today"></div>
+<div class="sport-section" id="sport-tomorrow" style="display: none;"></div>
+<div class="sport-section" id="sport-week" style="display: none;"></div>
+<div class="sport-section" id="sport-all" style="display: none;"></div>
+</div>
+</section>
 <!-- Full Sports Calendar -->
 <section class="section section-tight" id="schedule">
 <div class="container">
@@ -1536,6 +1555,7 @@
 </div>
 </footer>
 <script src="js/main.min.js"></script>
+<script type="module" src="js/sports-api.js"></script>
 <script>
     let selectedSport = "all";
     let selectedMonth = "all";
