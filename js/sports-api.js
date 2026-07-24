@@ -40,7 +40,7 @@ function gameCard(game) {
         ${game.homeLogo ? `<img src="${escapeHtml(game.homeLogo)}" alt="" loading="lazy" decoding="async">` : ''}
       </div>
       ${game.venue ? `<p class="sport-card-venue">${escapeHtml(game.venue)}</p>` : ''}
-      <a class="btn btn-primary btn-sm" href="${escapeHtml(game.reserveUrl)}">
+      <a class="btn btn-primary" href="${escapeHtml(game.reserveUrl)}">
         <span>Reserve a Table</span>
         <span class="btn-icon">
           <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24" width="14">
